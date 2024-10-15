@@ -1,0 +1,27 @@
+all:
+  hosts:
+    ansible1:
+      ansible_user: ubuntu
+      ansible_ssh_pass: 1991
+      ansible_host: 192.168.252.132
+
+    ansible2: 
+      ansible_user: ubuntu
+      ansible_ssh_pass: 1991
+      ansible_host: 192.168.252.133
+
+  vars:
+    DB_REPL_HOST: 192.168.252.131
+    DB_REPL_USER: repl_user
+    DB_REPL_PASSWORD: q12345
+    DB_REPL_PORT: 5432
+    DB_HOST: 192.168.252.133
+    DB_PORT: 5432
+    DB_USER: postgres
+    DB_PASSWORD: q12345
+    DB_DATABASE: base_pt
+    TOKEN: 7906652220:AAGjcU3pXyO6Mrb8hTfUb4hhf6k6yFn1X5A
+    RM_HOST: 192.168.252.132
+    RM_PORT: 22
+    RM_USER: ubuntu
+    RM_PASSWORD: 1991
